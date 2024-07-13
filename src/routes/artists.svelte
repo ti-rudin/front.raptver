@@ -1,6 +1,6 @@
 <script context="module">
   export async function load({ fetch }) {
-    const res = await fetch('https://admin.rocktver.ru/graphql', {
+    const res = await fetch('https://admin.raptver.ru/graphql', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -62,7 +62,7 @@
         <h2>{launch.id}</h2>
 
         <img
-          src={'https://admin.rocktver.ru' +
+          src={'https://admin.raptver.ru' +
             launch.attributes.avatar.data.attributes.url}
           alt=""
         />

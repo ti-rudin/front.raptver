@@ -51,7 +51,7 @@
 					};
     export let track_now = 1;
 	async function load() {
-		const res = await fetch('https://admin.rocktver.ru/graphql', {
+		const res = await fetch('https://admin.raptver.ru/graphql', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -116,7 +116,7 @@
 				container.band_name = item.attributes.band_name;
 				if (item.attributes.group_logo.data !== null) {
 					container.path =
-						'https://admin.rocktver.ru' + item.attributes.group_logo.data.attributes.url;
+						'https://admin.raptver.ru' + item.attributes.group_logo.data.attributes.url;
 				} else {
 					container.path = 'rock-band-icon-9.jpg';
 				}
@@ -133,7 +133,7 @@
 				artists.forEach((item) => {
 					let url = 'icon-person-10.jpg';
 					if (item.attributes.avatar.data !== null) {
-						url = 'https://admin.rocktver.ru' + item.attributes.avatar.data.attributes.url;
+						url = 'https://admin.raptver.ru' + item.attributes.avatar.data.attributes.url;
 					}
 
 					const container = {

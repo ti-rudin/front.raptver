@@ -22,7 +22,7 @@
 			redirect: 'follow'
 		};
 
-		fetch('https://api.rocktver.ru/send-like/', requestOptions)
+		fetch('https://api.raptver.ru/send-like/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				return result;

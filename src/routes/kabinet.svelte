@@ -23,7 +23,7 @@
 			//body: raw,
 		};
 
-		fetch('https://api.rocktver.ru/lotereya-getplayedusers/', requestOptions)
+		fetch('https://api.raptver.ru/lotereya-getplayedusers/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				//console.log(result);
@@ -37,7 +37,7 @@
 	}
 	
 
-	let apiurl = 'https://api.rocktver.ru';
+	let apiurl = 'https://api.raptver.ru';
 	//isAuthenticated = browser ? window.localStorage.getItem('isAuthenticated') ?? isAuthenticated_defaultValue : isAuthenticated_defaultValue;
 	function logauth(ud) {
 		let myHeaders = new Headers();

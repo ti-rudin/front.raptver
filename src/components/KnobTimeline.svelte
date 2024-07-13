@@ -26,7 +26,7 @@
 			redirect: 'follow'
 		};
 
-		fetch('https://api.rocktver.ru/change-event/', requestOptions)
+		fetch('https://api.raptver.ru/change-event/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				return result;

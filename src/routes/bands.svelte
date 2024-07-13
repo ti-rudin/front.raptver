@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ fetch }) {
-		const res = await fetch('https://admin.rocktver.ru/graphql', {
+		const res = await fetch('https://admin.raptver.ru/graphql', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -148,7 +148,7 @@
 						{#if band.attributes.group_logo.data}
 							<img
 								class=" h-28 w-28 w-full rounded shadow"
-								src={'https://admin.rocktver.ru' + band.attributes.group_logo.data.attributes.url}
+								src={'https://admin.raptver.ru' + band.attributes.group_logo.data.attributes.url}
 								alt=""
 							/>
 						{:else}
@@ -179,7 +179,7 @@
 							>
 								<img
 									class="mr-2 mb-1 h-12 w-12 rounded-full "
-									src={'https://admin.rocktver.ru' + artist.attributes.avatar.data.attributes.url}
+									src={'https://admin.raptver.ru' + artist.attributes.avatar.data.attributes.url}
 									alt=""
 								/>
 								<p class="lblock  mt-1 border-t border-white/30">{artist.attributes.name}</p>

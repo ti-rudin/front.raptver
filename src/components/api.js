@@ -5,24 +5,24 @@ export async function getItems(page) {
 }
 
 export async function getIdTrackNow() {
-	const path = `https://api.rocktver.ru/track-now-id`
+	const path = `https://api.raptver.ru/track-now-id`
 	const res = await fetch(path)
 	return await res.json()
 }
 
 export async function getIdTrackNowLikes() {
-	const path = `https://api.rocktver.ru/track-now-likes`
+	const path = `https://api.raptver.ru/track-now-likes`
 	const res = await fetch(path)
 	return await res.json()
 }
 
 export async function getNow() {
-	const path = `https://api.rocktver.ru/get-now`
+	const path = `https://api.raptver.ru/get-now`
 	const res = await fetch(path)
 	return await res.json()
 }
 export async function getEfir() {
-	const path = `https://api.rocktver.ru/get-efir`
+	const path = `https://api.raptver.ru/get-efir`
 	const res = await fetch(path)
 	return await res.json()
 }
@@ -41,7 +41,7 @@ export async function getEfir2(user) {
 		
 	};
 
-	const res = await fetch('https://api.rocktver.ru/get-efir2', requestOptions)
+	const res = await fetch('https://api.raptver.ru/get-efir2', requestOptions)
 	return await res.json()	
 }
 

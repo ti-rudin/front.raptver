@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ params, fetch }) {
-		const res = await fetch('https://admin.rocktver.ru/graphql', {
+		const res = await fetch('https://admin.raptver.ru/graphql', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -122,7 +122,7 @@
 	import { isDarkFlag, isMngr } from '$lib/siteConfig';
 
 	let isAdmin = false;
-	let apiurl = 'https://api.rocktver.ru/getuserdata';
+	let apiurl = 'https://api.raptver.ru/getuserdata';
 
 	async function loaduser(userid) {
 		let myHeaders = new Headers();
@@ -157,7 +157,7 @@
 			headers: myHeaders
 		};
 
-		fetch('https://api.rocktver.ru/get-efir/', requestOptions)
+		fetch('https://api.raptver.ru/get-efir/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				console.log(result);

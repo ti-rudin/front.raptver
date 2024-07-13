@@ -43,9 +43,9 @@
 
 		
 		if (status.now_on_scene.bandlogo != '') {
-			logobandurl = 'https://admin.rocktver.ru' + status.now_on_scene.bandlogo
+			logobandurl = 'https://admin.raptver.ru' + status.now_on_scene.bandlogo
 		} else {
-			logobandurl = 'https://rocktver.ru/rock-band-icon-9.jpg'
+			logobandurl = 'https://raptver.ru/rock-band-icon-9.jpg'
 		}
 		console.log(now);
 		//console.log(status);
@@ -320,7 +320,7 @@
 						>
 							<img
 								class="mr-2 mb-1 h-14 w-14 rounded-full "
-								src={'https://admin.rocktver.ru' + artist.attributes.avatar.data.attributes.url}
+								src={'https://admin.raptver.ru' + artist.attributes.avatar.data.attributes.url}
 								alt=""
 							/>
 							<p class="lblock mt-1 border-t border-white/30 text-lg">{artist.attributes.name}</p>

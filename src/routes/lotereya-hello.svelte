@@ -5,7 +5,7 @@
 	//import QRCode from '../components/QRJS.svelte'
 
 	import { browser } from '$app/env';
-	let apiurl = 'https://api.rocktver.ru';
+	let apiurl = 'https://api.raptver.ru';
 	//isAuthenticated = browser ? window.localStorage.getItem('isAuthenticated') ?? isAuthenticated_defaultValue : isAuthenticated_defaultValue;
 
 
@@ -26,7 +26,7 @@
 			body: raw,
 		};
 
-		fetch('https://api.rocktver.ru/lotereya-register/', requestOptions)
+		fetch('https://api.raptver.ru/lotereya-register/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				

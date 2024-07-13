@@ -135,7 +135,7 @@
 <div class="mx-auto w-full max-w-sm my-3">
 	<img
 		class="mx-auto w-full"
-		src="https://admin.rocktver.ru/uploads/photo_2022_03_31_14_40_51_46ecf37672.jpg?updated_at=2022-03-31T11:42:34.404Z"
+		src="https://admin.raptver.ru/uploads/photo_2022_03_31_14_40_51_46ecf37672.jpg?updated_at=2022-03-31T11:42:34.404Z"
 		alt="Виджет прямого эфира"
 	/>
 </div>
@@ -154,7 +154,7 @@
 <div class="mx-auto w-full max-w-sm my-3">
 	<img
 		class="mx-auto w-full"
-		src="https://admin.rocktver.ru/uploads/Snimok_ekrana_2022_04_09_v_03_09_38_092a481bd0.png?updated_at=2022-04-09T00:10:15.170Z"
+		src="https://admin.raptver.ru/uploads/Snimok_ekrana_2022_04_09_v_03_09_38_092a481bd0.png?updated_at=2022-04-09T00:10:15.170Z"
 		alt="Таймлайн"
 	/>
 </div>
@@ -168,7 +168,7 @@
 <div class="mx-auto w-full max-w-sm">
 	<img
 		class="mx-auto w-full"
-		src="https://admin.rocktver.ru/uploads/Snimok_ekrana_2022_04_09_v_03_14_56_cf3ac4fd09.png?updated_at=2022-04-09T00:15:22.096Z"
+		src="https://admin.raptver.ru/uploads/Snimok_ekrana_2022_04_09_v_03_14_56_cf3ac4fd09.png?updated_at=2022-04-09T00:15:22.096Z"
 		alt="Таймлайн"
 	/>
 </div>
@@ -387,7 +387,7 @@
 <div class="mx-auto mt-3 w-full max-w-2xl">
 	Контакты: <br />
 	Александр Рудин +7(965) 105-02-11, a@rudin.ru) <br />
-	Александр Новиков +7(925) 112-50-89, mail@rocktver.ru)
+	Александр Новиков +7(925) 112-50-89, mail@raptver.ru)
 </div>
 
 <style>

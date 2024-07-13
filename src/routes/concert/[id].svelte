@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ params, fetch }) {
-		const res = await fetch('https://admin.rocktver.ru/graphql', {
+		const res = await fetch('https://admin.raptver.ru/graphql', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -166,7 +166,7 @@
 import Bands from '../bands.svelte';
 	//$isAdmin = false;
 	let bandslikes = [];
-	let apiurl = 'https://api.rocktver.ru';
+	let apiurl = 'https://api.raptver.ru';
 
 	async function loaduser(userid) {
 		let myHeaders = new Headers();

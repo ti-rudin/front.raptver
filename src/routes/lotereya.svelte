@@ -4,7 +4,7 @@
 	import LogoComponent from '../components/LogoComponent.svelte';
 
 	import { browser } from '$app/env';
-	let apiurl = 'https://api.rocktver.ru';
+	let apiurl = 'https://api.raptver.ru';
 	//isAuthenticated = browser ? window.localStorage.getItem('isAuthenticated') ?? isAuthenticated_defaultValue : isAuthenticated_defaultValue;
 
 	export let flag, qrurl, playedusers, index, leader, leaderview, played, sec;
@@ -34,7 +34,7 @@
 			body: raw
 		};
 
-		fetch('https://api.rocktver.ru/lotereya-register/', requestOptions)
+		fetch('https://api.raptver.ru/lotereya-register/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				return result;
@@ -94,7 +94,7 @@
 			//body: raw,
 		};
 
-		fetch('https://api.rocktver.ru/lotereya-getplayedusers/', requestOptions)
+		fetch('https://api.raptver.ru/lotereya-getplayedusers/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				console.log(result);

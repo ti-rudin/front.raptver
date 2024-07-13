@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ params, fetch }) {
-		const res = await fetch('https://admin.rocktver.ru/graphql', {
+		const res = await fetch('https://admin.raptver.ru/graphql', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -74,7 +74,7 @@
 
 	export let launches, launch, id, htmlimg, imgurl, bands, site;
 
-	site = 'https://rocktver.ru/person/';
+	site = 'https://raptver.ru/person/';
 	//site = 'https://dev--rocktver.netlify.app/person/';
 
 	launch = launches.filter((launch) => launch.attributes.name == id)[0];
@@ -111,7 +111,7 @@
 	$: imgurl = imgurl;
 	export let s, s2, imguserurl;
 
-	$: imguserurl = 'https://admin.rocktver.ru' + launch.attributes.avatar.data.attributes.url;
+	$: imguserurl = 'https://admin.raptver.ru' + launch.attributes.avatar.data.attributes.url;
 
 	$: s =
 		'http://vk.com/share.php?url=https://dev--rocktver.netlify.app/person/' +
@@ -122,7 +122,7 @@
 	$: s2 =
 		'http://vk.com/share.php?url=https://dev--rocktver.netlify.app/person/' +
 		String(launch.attributes.name) +
-		'&image=https://admin.rocktver.ru/uploads/rf_A_v0_Imk_NU_3f1957f5b7.jpg';
+		'&image=https://admin.raptver.ru/uploads/rf_A_v0_Imk_NU_3f1957f5b7.jpg';
 
 	//$: console.log(imgurl);
 </script>
@@ -164,7 +164,7 @@
 			class="maskpic mx-auto  flex flex-col bg-white p-4 text-black dark:bg-gray-900 dark:text-white"
 		>
 			<h2 class="urlonscreen mx-auto max-w-sm text-center">
-				{'rocktver.ru/person/' + launch.attributes.name}
+				{'raptver.ru/person/' + launch.attributes.name}
 			</h2>
 
 			<div aria-label="card 1" class="mx-auto rounded-lg">
@@ -190,7 +190,7 @@
 							>
 								<img
 									class="h-24 w-auto rounded shadow"
-									src={'https://admin.rocktver.ru' + band.attributes.group_logo.data.attributes.url}
+									src={'https://admin.raptver.ru' + band.attributes.group_logo.data.attributes.url}
 									alt=""
 								/>
 								<div>

@@ -8,7 +8,7 @@ onMount(() => {
     //console.log(imgurl);
     document.getElementById('vk_share_button').innerHTML = VK.Share.button(
         {
-            image: 'https://rocktver.ru/rockopolchenie2022-2.jpg',
+            image: 'https://raptver.ru/rockopolchenie2022-2.jpg',
             title: usernametitle,
             noparse: true,
             url: 'https://vk.com/rock_opolchenie2022'
@@ -31,7 +31,7 @@ function register(x) {
 			body: raw,
 		};
 
-		fetch('https://api.rocktver.ru/lotereya-register/?loterid='+loterid, requestOptions)
+		fetch('https://api.raptver.ru/lotereya-register/?loterid='+loterid, requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				

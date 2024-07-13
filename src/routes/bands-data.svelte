@@ -2,7 +2,7 @@
 
 
 	export async function load({ params, fetch }) {
-		const res = await fetch('https://admin.rocktver.ru/graphql', {
+		const res = await fetch('https://admin.raptver.ru/graphql', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -135,7 +135,7 @@
 			redirect: 'follow'
 		};
 
-		fetch('https://api.rocktver.ru/bands-data-update/', requestOptions)
+		fetch('https://api.raptver.ru/bands-data-update/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				return result;

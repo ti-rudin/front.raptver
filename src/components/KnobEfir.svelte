@@ -12,7 +12,7 @@
 			headers: myHeaders
 		};
 
-		fetch('https://api.rocktver.ru/get-efir/', requestOptions)
+		fetch('https://api.raptver.ru/get-efir/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				//console.log(result);
@@ -44,7 +44,7 @@
 			body: raw
 		};
 
-		fetch('https://api.rocktver.ru/change-concert/', requestOptions)
+		fetch('https://api.raptver.ru/change-concert/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				return result;

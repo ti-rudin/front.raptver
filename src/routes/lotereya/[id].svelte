@@ -1,6 +1,6 @@
 <script context="module">
 	export async function load({ params, fetch }) {
-		const res = await fetch('https://admin.rocktver.ru/graphql', {
+		const res = await fetch('https://admin.raptver.ru/graphql', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
@@ -38,7 +38,7 @@
 </script>
 
 <script>
-	let apiurl = 'https://api.rocktver.ru';
+	let apiurl = 'https://api.raptver.ru';
 	//isAuthenticated = browser ? window.localStorage.getItem('isAuthenticated') ?? isAuthenticated_defaultValue : isAuthenticated_defaultValue;
 
 	export let flag, qrurl, playedusers, index, leader, leaderview, played, sec;
@@ -79,7 +79,7 @@
 			body: raw
 		};
 
-		fetch('https://api.rocktver.ru/lotereya-register/?id=' + { id }, requestOptions)
+		fetch('https://api.raptver.ru/lotereya-register/?id=' + { id }, requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				return result;
@@ -141,7 +141,7 @@
 			//body: raw,
 		};
 
-		fetch('https://api.rocktver.ru/lotereya-getplayedusers/', requestOptions)
+		fetch('https://api.raptver.ru/lotereya-getplayedusers/', requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
 				console.log(result);
@@ -169,7 +169,7 @@
 
 
 
-	site = 'https://rocktver.ru/';
+	site = 'https://raptver.ru/';
 	//site = 'https://dev--rocktver.netlify.app/person/';
 
 	launch = launches.filter((launch) => launch.attributes.loter_id == id)[0];
@@ -282,7 +282,7 @@
 	if (flag) {
 		document.getElementById('vk_share_button').innerHTML = VK.Share.button(
 			{
-				image: 'https://rocktver.ru/rockopolchenie2022.jpg',
+				image: 'https://raptver.ru/rockopolchenie2022.jpg',
 				title: 'Я собираюсь на Рок ОполЧЕние 2022',
 				noparse: true,
 				url: 'https://vk.com/rock_opolchenie2022'
@@ -306,12 +306,12 @@
 	<meta property="og:title" content={usernametitle} />
 	<meta name="Description" content="Я собираюсь на Рок ОполЧЕние 2022" />
 	<meta property="og:description" content="Я собираюсь на Рок ОполЧЕние 2022" />
-	<meta property="og:image" content='https://rocktver.ru/rockopolchenie2022.jpg' />
+	<meta property="og:image" content='https://raptver.ru/rockopolchenie2022.jpg' />
 	<meta name="twitter:card" content="summary" />
 
 	<meta name="twitter:title" content={usernametitle} />
 	<meta name="twitter:description" content="Я собираюсь на Рок ОполЧЕние 2022" />
-	<meta name="twitter:image" content='https://rocktver.ru/rockopolchenie2022.jpg' />
+	<meta name="twitter:image" content='https://raptver.ru/rockopolchenie2022.jpg' />
 </svelte:head>
 <LogoComponent />
 <div class="mt-1 w-full ">
