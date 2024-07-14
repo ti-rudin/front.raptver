@@ -1,6 +1,6 @@
 export const SITE_URL = 'https://raptver.ru';
 
-export const GH_USER_REPO = 'ti-rudin/front.raptver'; // used for pulling github issues and offering comments
+export const GH_USER_REPO = 'ti-rudin/rocktver'; // used for pulling github issues and offering comments
 export const REPO_URL = 'https://github.com/' + GH_USER_REPO;
 export const SITE_TITLE = 'РЭПТВЕРЬ';
 export const SITE_DESCRIPTION = 'Музыканты, концерты';
