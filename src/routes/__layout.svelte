@@ -16,7 +16,7 @@
 	import { browser } from '$app/env';
 
 	onMount(() => {
-		VK.init({ apiId: 8083840 });
+		VK.init({ apiId: 51991654 });
 	});
 </script>
 
