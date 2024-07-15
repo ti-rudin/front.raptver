@@ -125,7 +125,7 @@
 				if (r.response) {
 					//alert(r.response.sex);
 					$isAuthenticated = true;
-					ym(88086612, 'reachGoal', 'vk-auth');
+					//ym(88086612, 'reachGoal', 'vk-auth');
 					let user_data = {
 						id: r.response[0]['id'],
 						bdate: r.response[0]['bdate'] ? r.response[0]['bdate'] : 'не указано',
@@ -220,7 +220,7 @@
 					class="cursor-pointer ring-1 ring-yellow-500 ml-4 p-2 pb-0 mx-auto flex w-full max-w-2xl flex-col items-start rounded-lg bg-yellow-400/50 px-3 text-black  transition-all hover:ring-2 dark:bg-orange-500/60 dark:text-white"
 					id="login_button"
 					on:click={() => {
-						ym(88086612, 'reachGoal', 'vk-auth-start');
+						//ym(88086612, 'reachGoal', 'vk-auth-start');
 						VK.Auth.login(getit);
 					}}
 				>

@@ -5,8 +5,10 @@
 
 	export const prerender = true; // index page is most visited, lets prerender
 </script>
+<!--
 {#if $isDarkFlag}
-	<svg
+
+<svg
 		class="logo"
 		height="117"
 		viewBox="0 0 583 117"
@@ -94,6 +96,7 @@
 		/>
 	</svg>
 {/if}
+-->
 <style>
 	.logo{
 		width: auto;

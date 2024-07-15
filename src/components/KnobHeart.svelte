@@ -35,7 +35,7 @@
 				return result;
 			})
 			.catch((error) => console.log('error', error));
-		ym(88086612, 'reachGoal', 'like');
+		//ym(88086612, 'reachGoal', 'like');
 	}
 
 	function sendlike() {

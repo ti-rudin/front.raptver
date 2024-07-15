@@ -95,7 +95,7 @@
 					loaduser($user.id);
 					localStorage.setItem('user', JSON.stringify(user_data));
 
-					ym(88086612, 'reachGoal', 'vk-auth');
+					//ym(88086612, 'reachGoal', 'vk-auth');
 					//LogRocket.identify(r.response[0]['id'], {
 					//	name: r.response[0]['first_name'] + ' ' + r.response[0]['last_name'],
 					//	vk_id: r.response[0]['id'],
@@ -226,7 +226,7 @@ href="/lotereya/{loterid}"
 		class="loginbut cursor-pointer p-3 mx-auto mb-8 flex w-full max-w-2xl flex-col items-start rounded-lg bg-yellow-400/50 px-3 text-black ring-yellow-400 transition-all hover:ring-2 dark:bg-yellow-800/25 dark:text-white"
 		id="login_button"
 		on:click={() => {
-			ym(88086612, 'reachGoal', 'vk-auth-start');
+			//ym(88086612, 'reachGoal', 'vk-auth-start');
 			VK.Auth.login(getit);
 		}}
 	>

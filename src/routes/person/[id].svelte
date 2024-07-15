@@ -227,7 +227,7 @@
 				class="mx-auto mb-2 max-w-[60%] text-xl cursor-pointer rounded-lg bg-blue-400/70 p-2 text-center shadow ring-1 ring-yellow-400 transition-all hover:ring-2 focus:outline-none dark:bg-blue-300/40 "
 				on:click={() => {
 					download();
-					ym(88086612, 'reachGoal', 'download pic');
+					//ym(88086612, 'reachGoal', 'download pic');
 				}}
 			>
 				Скачать открытку
@@ -249,7 +249,7 @@
 				class="pb-4 pt-2"
 				id="vk_share_button"
 				on:click={() => {
-					ym(88086612, 'reachGoal', 'repost pic');
+					//ym(88086612, 'reachGoal', 'repost pic');
 				}}
 			/>
 		</div>

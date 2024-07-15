@@ -226,7 +226,7 @@
 					
 					localStorage.setItem('user', JSON.stringify(user_data));
 					loaduser($user.id);
-					ym(88086612, 'reachGoal', 'vk-auth');
+					//ym(88086612, 'reachGoal', 'vk-auth');
 					//LogRocket.identify(r.response[0]['id'], {
 					//	name: r.response[0]['first_name'] + ' ' + r.response[0]['last_name'],
 					//	vk_id: r.response[0]['id'],
@@ -370,7 +370,7 @@
 		id="login_button"
 		on:click={() => {
 			
-			ym(88086612, 'reachGoal', 'vk-auth-start');
+			//ym(88086612, 'reachGoal', 'vk-auth-start');
 			VK.Auth.login(getit);
 			
 		}}

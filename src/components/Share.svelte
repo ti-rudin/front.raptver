@@ -58,7 +58,7 @@ function register(x) {
             id="vk_share_button"
             
             on:click={() => {
-                ym(88086612, 'reachGoal', 'repost pic');
+                //ym(88086612, 'reachGoal', 'repost pic');
                 register($user)
             }}
         />
