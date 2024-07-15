@@ -99,28 +99,7 @@
 
 			<div class="h-5" />
 
-			<li
-				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-				style="transition-delay: 150ms;"
-			>
-				<a
-					class="flex w-auto pb-4"
-					sveltekit:prefetch
-					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/volonteram">Волонтёрам</a
-				>
-			</li>
-			<li
-				class="border-b border-gray-300 font-semibold text-gray-900 dark:border-gray-700 dark:text-gray-100"
-				style="transition-delay: 150ms;"
-			>
-				<a
-					class="flex w-auto pb-4"
-					sveltekit:prefetch
-					on:click={() => setTimeout(() => (isOpen = false), 300)}
-					href="/sponsoram">Спонсорам</a
-				>
-			</li>
+		
 
 			<!--
 			<li

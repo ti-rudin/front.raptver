@@ -101,27 +101,18 @@
 		>
 	</div>
 	{#if !search}
-		<h3 class="mt-3 text-xl  tracking-tight text-blue-500/80 md:text-3xl">
-			В закрепе
-		</h3>
-		<IndexCard
-			href="/manual"
-			title="Руководство для менеджеров выступающих групп"
-			stringData=""
-		>
-			В рамках проведения отборочных музыкального праздника «Рок ОполЧение» и основного мероприятия
-			будет работать веб-приложение, используя которое, зрители смогут видеть основную информацию о
-			выступающих группах и играющих на сцене треках, а также оценивать понравившиеся им композиции.
+		<h3 class="mt-3 text-xl  tracking-tight text-blue-500/80 md:text-3xl">В закрепе</h3>
+		<IndexCard href="/manual" title="Руководство для менеджеров выступающих групп" stringData="">
+			В рамках проведения мероприятия, страница соответствующего концерта будет работать как
+			веб-приложение, используя которое, зрители смогут видеть основную информацию о выступающих
+			группах и звучащих треках, а также оценивать понравившиеся им композиции.
 		</IndexCard>
-	
-
-	
 	{/if}
 	{#if list.length}
-		<ul class="mt-6">
+		<ul class="mt-6 w-full">
 			{#each list as item}
-				<li class="pb-8 text-lg dark:hover:bg-blue-700/10 no-underline focus:outline-none">
-					<hr>
+				<li class="pb-8 text-lg no-underline focus:outline-none dark:hover:bg-blue-700/10">
+					<hr />
 					<!-- <code class="mr-4">{item.data.date}</code> -->
 					<IndexCard
 						href={item.slug}
