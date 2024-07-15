@@ -8,6 +8,7 @@
 <!--
 {#if $isDarkFlag}
 
+
 <svg
 		class="logo"
 		height="117"
