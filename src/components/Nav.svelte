@@ -60,7 +60,7 @@
 				<NavLink href="/">Главная</NavLink>
 			</li>
 			<li>
-				<NavLink href="#">Команды</NavLink>
+				<NavLink href="/bands">Команды</NavLink>
 			</li>
 	
 		</ul>
