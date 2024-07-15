@@ -17,7 +17,7 @@ const mdsvexConfig = {
 			remarkGithub,
 			{
 				// Use your own repository
-				repository: 'https://github.com/ti-rudin/rocktver.git'
+				repository: 'https://github.com/ti-rudin/front.raptver.git'
 			}
 		],
 		remarkAbbr
