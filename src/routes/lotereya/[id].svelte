@@ -176,7 +176,7 @@
 
 	function download() {
 		var link = document.createElement('a');
-		link.download = $user.name + '-in-RockTver.jpeg';
+		link.download = $user.name + '-in-RapTver.jpeg';
 		link.href = imgurl;
 		link.click();
 

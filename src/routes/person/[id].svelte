@@ -82,7 +82,7 @@
 
 	function download() {
 		var link = document.createElement('a');
-		link.download = launch.attributes.name + '-in-RockTver.jpeg';
+		link.download = launch.attributes.name + '-in-RapTver.jpeg';
 		link.href = imgurl;
 		link.click();
 
